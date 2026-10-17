@@ -8,7 +8,7 @@ public class SolutionPartOne {
     
     public static void main(String[] args) {
         AoCReader reader = new AoCReader();
-        List<String[]> input = reader.readInput("my_input.txt");
+        List<String[]> input = reader.readInput("../my_input.txt");
         List<String[]> transposed = reader.transposeList(input);
         List<List<Integer>> inputList = new ArrayList<>();
         for(String[] s: transposed) {
