@@ -8,3 +8,4 @@ Solutions are implmented in:
 
 * java
 * lua
+* rust
