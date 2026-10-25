@@ -11,7 +11,7 @@ public class PartOne {
 
     public static void main(String[] args) {
         AoCReader reader = new AoCReader();
-        List<String[]> lines = reader.readInput("example.txt");
+        List<String[]> lines = reader.readInput("input.txt");
         System.out.println(String.format("List contains %d elements", lines.size()));
 
         for(String[] curr : lines) {

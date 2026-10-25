@@ -1,2 +1,4 @@
 # ignore compiled java classes
 *.class
+
+**/target/*
